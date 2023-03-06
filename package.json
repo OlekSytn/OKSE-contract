@@ -1,0 +1,60 @@
+{
+  "name": "hardhat-hackathon-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate repository to get you started with Hardhat and Ethereum development",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat deploy",
+    "console": "hardhat console",
+    "verify": "hardhat verify"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomiclabs/hardhat-hackathon-boilerplate.git"
+  },
+  "keywords": [
+    "hardhat",
+    "ethereum",
+    "hackathon"
+  ],
+  "author": "Nomic Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomiclabs/hardhat-hackathon-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nomiclabs/hardhat-hackathon-boilerplate#readme",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.x",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@typechain/ethers-v5": "^4.0.0",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "decimal.js": "^10.2.1",
+    "dotenv": "^9.0.2",
+    "ethereum-waffle": "^3.0.2",
+    "ethers": "^5.0.8",
+    "hardhat": "^2.2.0",
+    "hardhat-contract-sizer": "^2.0.3",
+    "hardhat-deploy": "^0.7.9",
+    "hardhat-typechain": "^0.3.5",
+    "is-svg": "^4.3.1",
+    "mocha": "^6.2.2",
+    "mocha-chai-jest-snapshot": "^1.1.0",
+    "prettier": "^2.0.5",
+    "prettier-plugin-solidity": "^1.0.0-beta.10",
+    "solhint": "^3.2.1",
+    "solhint-plugin-prettier": "^0.0.5",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^8.5.4",
+    "typechain": "^4.0.0",
+    "typescript": "^3.7.3"
+  }
+}

@@ -1,1 +1,1 @@
-# OkseCardV1.0-contracts
+# OkseCardV1.0-contract
